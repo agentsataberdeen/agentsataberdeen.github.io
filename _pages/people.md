@@ -11,12 +11,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+<!---
 <h2>Current Members</h2>     
 <br>
+-->
 
 {% for person in site.data.members %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <!--- <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}"> -->
+    <img style="float: left; width: 22%; padding-right: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}"> 
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
         {{person.position}} <br>
@@ -46,5 +48,7 @@ social: false  # includes social icons at the bottom of the page
 {% endfor %}
 
 
+<!---
 <h3>Past Members</h3>  
 <br>
+-->

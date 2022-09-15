@@ -1,6 +1,6 @@
 - name: Rafael C. Cardoso
   degrees: MSc PhD
-  image: 
+  image: rc.jpg
   altimage: 
   position: Lecturer
   email: rafael.cardoso (at) abdn.ac.uk
@@ -13,7 +13,7 @@
 
 - name: Brian Logan
   degrees: PhD
-  image: 
+  image: bl.jpg
   altimage: 
   position: Professor
   email: brian.logan (at) abdn.ac.uk
@@ -26,7 +26,7 @@
   
 - name: Felipe Meneguzzi
   degrees: PhD
-  image: 
+  image: fm.jpg
   altimage: 
   position: Professor
   email: felipe.meneguzzi (at) abdn.ac.uk
@@ -39,7 +39,7 @@
   
 - name: Nir Oren
   degrees: PhD
-  image: 
+  image: no.jpg
   altimage: 
   position: Professor
   email: n.oren (at) abdn.ac.uk
@@ -52,7 +52,7 @@
   
 - name: Bruno Yun
   degrees: PhD
-  image: 
+  image: by.jpg
   altimage: 
   position: Lecturer
   email: bruno.yun (at) abdn.ac.uk
