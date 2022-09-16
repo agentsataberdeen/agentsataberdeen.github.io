@@ -24,7 +24,7 @@ social: false  # includes social icons at the bottom of the page
         {{person.position}} <br>
         <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
         {% if person.twitter %}
-          <i class="fab fa-twitter"></i> <a href= "http://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
+          <i class="fab fa-twitter"></i> <a href= "https://twitter.com/{{person.twitter}}" target="_blank"> @{{person.twitter}} </a> <br>
         {% endif %}
         {% if person.website %}
           <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
