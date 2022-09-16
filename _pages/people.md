@@ -33,10 +33,10 @@ social: false  # includes social icons at the bottom of the page
           <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
         {% endif %}
         {% if person.scholar %}
-          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
+          <i class="ai ai-google-scholar"></i> <a href= "https://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
         {% endif %}
         {% if person.orcid %}
-          <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
+          <i class="ai ai-orcid"></i> <a href="https://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
         {% endif %}
 
     </div>
