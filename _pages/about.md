@@ -1,3 +1,9 @@
+---
+layout: about
+title: home
+permalink: /
+---
+
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Redirecting to new AAA website</title>
